@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+
+
+.imageContainer img{
+    width:100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+    height:72px;
+}
+
+.mainTitle h1{
+    font-weight: 900px;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    font-family: 'Big Shoulders Display';
+    width: 343px;
+    padding:32px 16px 0px 16px; 
+}
+.mainTitle p, .mainContainer p, .blackContainer p{
+    color: #444444;
+    font-size:18px;
+    font-weight: 300;
+    font-family: 'Outfit';
+    line-height: 28px;
+    width: 343px;
+    padding:32px 16px 0px 16px; 
+}
+
+.location{
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 3px;
+    padding: 24px 35px;
+    
+    background-color: #151515;
+    border: none;
+}
+
+.location p{
+    width:150px;
+}
+
+.locationButton{
+    margin:32px 16px 0px -35px; 
+}
+
+.mainContainer{
+    padding:120px 16px 0px 16px;
+    
+}
+
+.mainContainer h2, .blackContainer h2{
+    font-weight: 900px;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    font-family: 'Big Shoulders Display';
+    width: 343px;
+    padding:32px 16px 0px 16px; 
+}
+
+.images{
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.icon{
+    background-color: #D5966C;
+    padding: 24px;
+    float: right;
+}
+
+
+.blackContainer{
+    background-color: #151515;
+    height:292px;
+}
+
+.blackContainer h2, .blackContainer p{
+    color: white;
+}
+
+footer p{
+    color: white;
+    max-width: 311px;
+    padding: 38px 16px 38px 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer .logo-light{
+    padding: 48px 232px 0px 32px;
+}
+
+footer{
+    background-color: #151515;
+    width: 100%;
+    margin-top: 120px;
+    height: 336px;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right:210px;
+
+    
+}
+
+
+
+
